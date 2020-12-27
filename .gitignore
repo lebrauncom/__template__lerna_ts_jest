@@ -1,0 +1,14 @@
+.DS_Store
+node_modules
+/tmp
+dist
+.build-cache
+*.tsbuildinfo
+package-lock.json
+
+# local env files
+.env
+
+# debug files
+npm-debug.log*
+lerna-debug.log*

@@ -1,0 +1,17 @@
+{
+  "extends": "../../tsconfig",
+  "compilerOptions": {
+    "declaration": true,
+    "declarationMap": true,
+    "baseUrl": ".",
+    "composite": true, // ensure TS can find the outputs of the referenced project
+    "noEmit": false,
+    "outDir": "dist",
+    "rootDir": "src"
+  },
+  "exclude": [
+    "**/*.spec.ts", 
+    "dist",
+    "jest.config.js"
+  ],
+}
